@@ -18,7 +18,7 @@ This is a responsive portfolio website built for **Muhammed Alfarttusie**. The w
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/alfarttusie/portfolio.git
    ```
 2. Navigate to the project folder:
    ```bash
