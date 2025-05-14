@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Muhammed Alfarttusie</title>ٍ
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav>
-      <h1>Muhammed Alfarttusie</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammed Alfarttusie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <h1>Muhammed Alfarttusie</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li>
+        <a href="#projects">Projects</a>
+        <ul>
+          <ul id="projects-menu"></ul>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+      <img src="https://avatars.githubusercontent.com/alfarttusie" alt="Muhammed Alfarttusie" />
+      <h2>Muhammed Alfarttusie</h2>
+      <p>
+        Welcome! I'm a passionate programmer with expertise in solving technical challenges. I specialize in:
+      </p>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li>
-          <a href="#projects">Projects</a>
-          <ul>
-            <li><a href="#project1">Project 1</a></li>
-            <li><a href="#project2">Project 2</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact">Contact</a></li>
+        <li>PHP</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>Flutter</li>
+        <li>Dart</li>
+        <li>Go</li>
+        <li>C#</li>
       </ul>
-    </nav>
-
-    <div class="container">
-      <div class="left">
-        <img src="https://avatars.githubusercontent.com/alfarttusie" />
-        <h2>Muhammed Alfarttusie</h2>
-        <p>
-          Welcome! I'm a passionate programmer with expertise in solving technical challenges. I specialize in:
-          <ul>
-            <li>PHP</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Python</li>
-            <li>Flutter</li>
-            <li>Dart</li>
-            <li>Go</li>
-            <li>C#</li>
-          </ul>
-        </p>
-      </div>
-
-      <div class="right">
-        <section id="about">
-          <h2>About Me</h2>
-          <p>
-            I am a software developer with expertise in various programming languages and frameworks. I enjoy solving real-world problems through efficient software.
-          </p>
-        </section>
-
-        <section id="projects">
-          <h2>Latest Projects</h2>
-          <div class="projects" id="github-projects">
-          </div>
-        </section>
-
-        <section id="contact">
-          <br>
-          <h2>Contact</h2>
-          <p>
-            Feel free to reach out via email at <a href="mailto:muhammed@alfarttusie.com">muhammed@alfarttusie.com</a>
-          </p>
-        </section>
-      </div>
     </div>
 
-    <script src="load.js"></script>
-  </body>
+    <div class="right">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a software developer with expertise in various programming languages and frameworks. I enjoy solving
+          real-world problems through efficient software.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Latest Projects</h2>
+        <div id="loader" class="loader"></div>
+        <div class="projects" id="github-projects"></div>
+      </section>
+
+      <section id="contact"></section>
+
+    </div>
+  </div>
+
+  <script src="load.js"></script>
+
+</body>
+
 </html>
